@@ -13,6 +13,7 @@ from CopernicusAPI import run_copernicus_toolbox
 from HUBOceanAPItest import run_hubocean_api
 from HUBOceanSDK import run_hubocean_sdk    
 from GFWAPI import run_GFWAPI
+from HUBOceanSDKTabv2 import run_hubocean_sdktabv2
 
 class TimeoutException(Exception):
     pass
@@ -54,8 +55,10 @@ def main():
         (run_arcgis_sdk, "ArcGIS SDK"),
         (run_copernicus_toolbox, "Copernicus Toolbox"),
         (run_hubocean_api, "HUB Ocean API"),
-        (run_hubocean_sdk, "HUB Ocean SDK")
+        (run_hubocean_sdk, "HUB Ocean SDK"),
         (run_GFWAPI, "GFW API"),
+        (run_hubocean_sdktabv2, "HUB Ocean SDK Tab v2")
+        
     ]
 
     results = {api_name: {"times": [], "failures": 0} for _, api_name in apis}

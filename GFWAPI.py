@@ -3,7 +3,7 @@ import time  # Import the time module
 
 def run_GFWAPI():
     # Replace with your actual GFW API key
-    API_KEY = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImtpZEtleSJ9.eyJkYXRhIjp7ImZpcnN0TmFtZSI6IkZyaWtrIiwibGFzdE5hbWUiOiJEdWtlZm9zcyIsImVtYWlsIjoiRnJpa2suZHVrZWZvc3NAZ21haWwuY29tIiwicGhvdG8iOm51bGwsImxhbmd1YWdlIjoiZW4iLCJpZCI6NDQzMTksInR5cGUiOiJ1c2VyIn0sImlhdCI6MTc0MzQyMTMyOCwiZXhwIjoxNzQzNDIzMTI4LCJhdWQiOiJnZnciLCJpc3MiOiJnZncifQ.KOED7wuLmdeH1vpyDwnu5dvsqwUjC3AuAy-ER7DYdVMesMiOFvEZZYVt1k8xm-tKgN8SBZOa1mkAfk7el3atMOV-_pfJpd5470sID271343M5sJ2BpjAXZAOfbbEM4NbG7MMN_OwZPTKvL0PgOSrdpOijTV41fFbS94XEuYxGbRe3YhV3SoJGM5vVoP8l9bw4VQtLAL-7rZwKfdbfkk7ymmtG2l48kd233T1iycJy1pJkA-Lw4khezzekiVyN-qieImGn_cFBWu6i9pJHX6H9zDPQMh1nUfe5SJmBK-NivybQePM8SUNnml3ZNPvyAqCkX5i6zNeSciGlhB7HIPakonc7JP3WZqhx_iOfzEfbqqaB2ZA4ddjs5RkdxWjP-hQ8ThZzwYSY7U2UZOcOobfhDKjvPitG5wTmIoXxOiU9vpZJxKeeTCprH1-FAMkH1MbYdcezr9m93oFiV-HNLqmQ2158-VVXpf7t_WmduURY2U0eRCgUow3xRdaEYzcJE1m'
+    API_KEY = ''
 
     # Define the API endpoint and parameters
     url = "https://gateway.api.globalfishingwatch.org/v3/download/datasets/public-fishing-effort-v1-v2-archived/download/mmsi-daily-csvs-10-v2-2016.zip"

@@ -13,6 +13,7 @@ from arcGISSDK import run_arcgis_sdk
 from CopernicusAPI import run_copernicus_toolbox
 from HUBOceanAPItest import run_hubocean_api
 from HUBOceanSDK import run_hubocean_sdk
+from HUBOceanSDKTabv2 import run_hubocean_sdktabv2
 from GFWAPI import run_GFWAPI
 
 def log_results(api_name, duration, error=None):
@@ -60,8 +61,9 @@ def main():
         (run_planetary_computer_api, "Planetary Computer API"),
         (run_arcgis_sdk, "ArcGIS SDK"),
         (run_copernicus_toolbox, "Copernicus Toolbox"),
-        (run_hubocean_sdk, "HUB Ocean SDK")
-        (run_GFWAPI, "GFW API"),
+        (run_hubocean_sdk, "HUB Ocean SDK"),
+        (run_hubocean_sdktabv2, "HUB Ocean SDK Tab v2"),
+        (run_GFWAPI, "GFW API")
     ]
 
     num_concurrent_downloads = 5  # Number of concurrent downloads to simulate
